@@ -1,0 +1,66 @@
+@keyframes load{
+    to{transform: rotate(90deg)}
+}
+
+.titulo{
+    font-size: 120px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(199, 231, 230);
+    text-align: center;
+    border-radius: 50%;
+    align: left;
+    background-image: url(imgmiçanga);
+    animation: load 2s infinite linear;
+}
+
+img{
+    margin-top: 40px;
+    display: flexbox;
+    width: 250px;
+    height: 250px;
+    row-gap: 20px;
+    padding: 10px;
+}
+
+.hiperlinks{
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size:15px;
+    padding: 24px;
+}
+.paginainicial{
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 6, 56);
+    font-size: 20px;
+   text-align: center;
+   grid-template-columns: auto;
+
+}
+.contato{
+    align-items: flex-end;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+   
+}
+
+body{
+    50%
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.produtos{
+    width: 20px;
+    height: 20px;
+    grid-template-columns: auto;
+
+}
+
